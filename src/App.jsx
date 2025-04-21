@@ -1,35 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
+import Banner from "./components/Banner";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <div
+      style={{ textAlign: "center", marginLeft: "300px", marginRight: "300px" }}
+    >
+      <Navigation />
+      <Banner />
+      <Gallery />
+      <h2>Benefits</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quibusdam
+        illo explicabo quod optio necessitatibus quae reprehenderit magnam, nisi
+        fugit corporis doloribus praesentium voluptatum suscipit laudantium,
+        repellendus natus qui quos!
       </p>
-    </>
-  )
+      <h2>Case studies</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        assumenda neque at optio accusamus dolor nam, totam eius adipisci
+        deleniti tempora voluptatum ea cupiditate ad atque quod veniam ab unde!
+      </p>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
