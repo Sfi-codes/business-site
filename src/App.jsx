@@ -5,26 +5,61 @@ import Gallery from "./components/Gallery";
 import Banner from "./components/Banner";
 
 function App() {
+  const phases = {
+    display: "grid",
+    gridTemplateColumns: "30% 70%",
+    height: "300px",
+  };
+
   return (
-    <div
-      style={{ textAlign: "center", marginLeft: "300px", marginRight: "300px" }}
-    >
+    <div style={{ marginLeft: "300px", marginRight: "300px" }}>
       <Navigation />
       <Banner />
+      <h2>Reliable IT support in Birmingham</h2>
+      <p>
+        We are dedicated to offering IT support to Birmingham businesses. We
+        support businesses by leveraging technology to meet your required
+        business needs. Our client-orientated approach allows for a seamless
+        partnership between our skilled engineers and you to create and
+        implement specialised IT and cyber security solutions.
+      </p>
       <Gallery />
-      <h2>Benefits</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quibusdam
-        illo explicabo quod optio necessitatibus quae reprehenderit magnam, nisi
-        fugit corporis doloribus praesentium voluptatum suscipit laudantium,
-        repellendus natus qui quos!
-      </p>
-      <h2>Case studies</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-        assumenda neque at optio accusamus dolor nam, totam eius adipisci
-        deleniti tempora voluptatum ea cupiditate ad atque quod veniam ab unde!
-      </p>
+      <h2>Process</h2>
+      <div style={phases}>
+        <h2>Step 1</h2>
+        <p>
+          1. Discovery and Assessment We begin by understanding your business
+          needs and current IT environment. This includes reviewing your
+          hardware, software, network, and security to identify any issues or
+          gaps. This phase helps us tailor the right solutions specifically for
+          you.
+        </p>
+        <h2>2 and 3</h2>
+        <p>
+          2. Onboarding and Setup Next, we implement the agreed-upon IT tools
+          and services, such as remote monitoring, backup systems, and security
+          measures. We also set up access and communication channels so you can
+          easily reach support whenever needed. 3. Proactive Monitoring and
+          Maintenance Once everything is set up, we continuously monitor your IT
+          systems remotely to detect and fix problems before they affect your
+          business. Regular updates, patching, and backups happen automatically
+          to keep your infrastructure secure and reliable.
+        </p>
+        <h2>Step 4 and 5 </h2>
+        <p>
+          4. Support and Issue Resolution If you encounter any IT problems, you
+          can contact us for fast, expert support. We troubleshoot and resolve
+          issues remotely or onsite as needed, minimizing downtime and keeping
+          your business running smoothly. 5. Strategic IT Planning and Growth
+          Beyond day-to-day support, we help you plan for future technology
+          needs, recommending upgrades or new solutions that align with your
+          business goals. This ensures your IT environment scales with your
+          growth. This phased approach ensures you get personalized, proactive,
+          and reliable IT support that evolves with your business needs,
+          providing peace of mind and helping you focus on what matters
+          most—your business success.
+        </p>
+      </div>
       <Footer />
     </div>
   );

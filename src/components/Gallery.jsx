@@ -17,15 +17,15 @@ const Gallery = () => {
       <div style={gridLayout}>
         <div style={content}>
           <img src="src/assets/react.svg"></img>
-          <div>Software Development</div>
+          <div>IT Managed Services</div>
         </div>
         <div style={content}>
           <img src="src/assets/react.svg"></img>
-          <div>IT Infrastucture</div>
+          <div>Cloud Solutions</div>
         </div>
         <div style={content}>
           <img src="src/assets/react.svg"></img>
-          <div>Performance & Marketing</div>
+          <div>Backup & Disaster Recovery</div>
         </div>
       </div>
     </div>
