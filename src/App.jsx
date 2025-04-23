@@ -26,39 +26,41 @@ function App() {
       <Gallery />
       <h2>Process</h2>
       <div style={phases}>
-        <h2>Step 1</h2>
+        <h2> Discovery and Assessment</h2>
         <p>
-          1. Discovery and Assessment We begin by understanding your business
+          We begin by understanding your business
           needs and current IT environment. This includes reviewing your
           hardware, software, network, and security to identify any issues or
           gaps. This phase helps us tailor the right solutions specifically for
           you.
         </p>
-        <h2>2 and 3</h2>
+        <h2>Onboarding and Setup and Maintenance</h2>
+        <div>
         <p>
-          2. Onboarding and Setup Next, we implement the agreed-upon IT tools
+          Next, we implement the agreed-upon IT tools
           and services, such as remote monitoring, backup systems, and security
           measures. We also set up access and communication channels so you can
-          easily reach support whenever needed. 3. Proactive Monitoring and
-          Maintenance Once everything is set up, we continuously monitor your IT
+          easily reach support whenever needed.
+        </p>
+        <p> Once everything is set up, we continuously monitor your IT
           systems remotely to detect and fix problems before they affect your
           business. Regular updates, patching, and backups happen automatically
-          to keep your infrastructure secure and reliable.
-        </p>
-        <h2>Step 4 and 5 </h2>
+          to keep your infrastructure secure and reliable.</p>
+          </div>
+        <h2>Support, Strategic IT Planning and Growth</h2>
+        <div>
         <p>
-          4. Support and Issue Resolution If you encounter any IT problems, you
+          If you encounter any IT problems, you
           can contact us for fast, expert support. We troubleshoot and resolve
           issues remotely or onsite as needed, minimizing downtime and keeping
-          your business running smoothly. 5. Strategic IT Planning and Growth
+          your business running smoothly. 
+          <p>
           Beyond day-to-day support, we help you plan for future technology
           needs, recommending upgrades or new solutions that align with your
           business goals. This ensures your IT environment scales with your
-          growth. This phased approach ensures you get personalized, proactive,
-          and reliable IT support that evolves with your business needs,
-          providing peace of mind and helping you focus on what matters
-          most—your business success.
+          growth.</p>
         </p>
+</div>
       </div>
       <Footer />
     </div>
