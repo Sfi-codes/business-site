@@ -5,7 +5,8 @@ const Footer = () => {
       display: 'flex',
       justifycContent: 'center',
       alignItems: 'center',
-      flexDirection: 'column'
+      flexDirection: 'column',
+      paddingTop: '30px'
     }}>
       <div style={{ display: "flex", gap: '10px' }}>
         <a>Privacy policy</a>

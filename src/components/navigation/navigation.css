@@ -1,0 +1,17 @@
+#links {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+}
+
+#links a{
+text-decoration: none;
+font-weight: bold;
+}
+
+#links a:unvisited, a:visited{
+color:black;
+}

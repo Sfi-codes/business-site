@@ -7,6 +7,8 @@ const Home = () => {
     return (
         <div>
             <Banner />
+                        <Gallery />
+
             <h2>Reliable IT support in Birmingham</h2>
             <p>
                 We are dedicated to offering IT support to Birmingham businesses. We
@@ -15,7 +17,6 @@ const Home = () => {
                 partnership between our skilled engineers and you to create and
                 implement specialised IT and cyber security solutions.
             </p>
-            <Gallery />
             <BusinessProcess />
         </div>
     )

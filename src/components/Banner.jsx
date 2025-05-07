@@ -1,14 +1,18 @@
+import Button from "./button/Button";
+
 const Banner = () => {
   const style = {
-    border: "1px solid black",
+    display: 'flex',
   };
+
   return (
     <div style={style}>
-      <div style={{ paddingTop: "25%", paddingBottom: "25%" }}>
+      <div>
         <h1>Your trusted IT partner for growth</h1>
-        <p>-Business Name- provides IT support and managed services tailored to help small businesses run efficiently</p>
-        <button>Enquire about IT support</button>
+        <p>Business Name- provides IT support and managed services tailored to help small businesses run efficiently</p>
+        <Button text = "Enquire about IT support" />
       </div>
+      <img src="src/assets/freepix/banner.jpg" width = "100%"></img>
     </div>
   );
 };
