@@ -3,13 +3,14 @@ const Gallery = () => {
     display: "flex",
     justifyContent: 'center',
     gap: '10px',
-    paddingTop: '30px'
+    paddingTop: '30px',
+        paddingBottom: '80px'
+
   };
 
   const content = {
     width:'150px',
     textAlign: 'center',
-    border: "1px solid black",
   };
   return (
     <div style ={{borderTop: "1px solid lightgrey",paddingTop:"30px", paddingBottom: "30px"}}>

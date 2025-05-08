@@ -12,6 +12,10 @@ text-decoration: none;
 font-weight: bold;
 }
 
-#links a:unvisited, a:visited{
+#links a:link, a:visited{
 color:black;
+}
+
+#links a:hover {
+color:grey;
 }

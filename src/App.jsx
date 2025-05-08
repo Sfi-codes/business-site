@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 function App() {
 
   return (
+        <div style={{backgroundColor: '#f0f0f0'}}>
+
     <div style={{ marginLeft: "300px", marginRight: "300px", fontFamily: "sans-serif" }}>
       <Navigation />
 
@@ -13,6 +15,8 @@ function App() {
 
       <Footer />
     </div>
+        </div>
+
   );
 }
 

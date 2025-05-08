@@ -12,7 +12,7 @@ const Banner = () => {
         <p>Business Name- provides IT support and managed services tailored to help small businesses run efficiently</p>
         <Button text = "Enquire about IT support" />
       </div>
-      <img src="src/assets/freepix/banner.jpg" width = "100%"></img>
+      <img src="src/assets/freepix/banner/20945551-Photoroom.png" width = "100%"></img>
     </div>
   );
 };

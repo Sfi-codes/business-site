@@ -2,7 +2,9 @@
         const phases = {
             display: "flex",
             flexDirection: "column",
-            gap: '50px'
+            gap: '50px',
+            paddingTop:'80px',
+            paddingBottom: '50px'
         };
 
         const row = {
@@ -14,7 +16,7 @@
             <div>
             <div style={phases}>
             <div style = {row}>
-            <img src="src/assets/freepix/banner.jpg" width = "100%"></img>
+            <img src="src/assets/freepix/stage1/20945220-Photoroom.png" width = "100%"></img>
             <div>
             <h2> Discovery and Assessment</h2>
             <p>
@@ -43,12 +45,12 @@
             to keep your infrastructure secure and reliable.</p>
             </div>
 
-            <img src="src/assets/freepix/banner.jpg" width = "100%"></img>
+            <img src="src/assets/freepix/stage2/20943392-Photoroom.png" width = "100%"></img>
 
             </div>
             <div style = {row}>
 
-            <img src="src/assets/freepix/banner.jpg" width = "100%"></img>
+            <img src="src/assets/freepix/stage3/20943611-Photoroom.png" width = "100%"></img>
 
             <div>
             <h2>Support, Strategic IT Planning and Growth</h2>
