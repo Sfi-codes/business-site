@@ -1,4 +1,6 @@
 import Gallery from "../components/Gallery";
+import Contact from "..//pages/Contact";
+import Button from "../components/button/Button";
 
 const Services = () => {
     return (
@@ -8,8 +10,7 @@ const Services = () => {
             <Gallery />
             <div>
                 <h1>We are here to help grow your business</h1>
-                <button>Request a meeting</button>
-            </div>
+<Button text = 'Request a meeting' link = 'contact' element = {<Contact/>}/>            </div>
         </div>
     )
 }
